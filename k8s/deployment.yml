@@ -11,12 +11,12 @@ spec:
     metadata:
       labels:
         app: cicd-app
-      spec:
-        containers:
-        - name: cicd-app
-          image: abhaysanodiya/cicd-app
-          ports:
-          - containerPort: 5000
+    spec:
+      containers:
+      - name: cicd-app
+        image: abhaysanodiya/cicd-app
+        ports:
+        - containerPort: 5000
 
 ---
 
